@@ -2,7 +2,7 @@
  <div class="container-fluid position-relative p-0">
      <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
          <a href="{{ url('/') }}" class="navbar-brand logo-wrap">
-             <img src="{{ asset('assets/img/keshavites-logo.svg') }}" alt="Keshav Ites - Software Development Company">
+             <img src="{{ asset('assets/img/keshaviteslogo.png') }}" alt="Keshav Ites - Software Development Company">
          </a>
 
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
