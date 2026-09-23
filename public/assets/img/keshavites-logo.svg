@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 220" role="img" aria-labelledby="title desc">
+  <title id="title">Keshav Ites Logo</title>
+  <desc id="desc">Keshav Ites software company logo</desc>
+  <rect width="420" height="220" rx="24" fill="#ffffff"/>
+  <circle cx="92" cy="74" r="34" fill="#06a3da"/>
+  <path d="M72 74h40M92 54v40" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M57 139l32-32 31 32 43-54" fill="none" stroke="#34ad54" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="190" y="92" fill="#091e3e" font-family="Nunito, Arial, sans-serif" font-size="48" font-weight="800">Keshav</text>
+  <text x="190" y="143" fill="#06a3da" font-family="Nunito, Arial, sans-serif" font-size="46" font-weight="800">Ites</text>
+  <rect x="190" y="160" width="148" height="8" rx="4" fill="#34ad54"/>
+</svg>
