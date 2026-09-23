@@ -6,9 +6,8 @@
             <!-- About Section -->
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <div class="footer-widget">
-                    <a href="/" class="footer-logo d-inline-block mb-3">
-                        <i class="fa fa-code text-primary me-2"></i>
-                        <span class="h5 text-white m-0">Keshav Ites</span>
+                    <a href="/" class="footer-logo d-inline-block mb-3" aria-label="Keshav Ites home">
+                        <img src="{{ asset('assets/img/keshaviteslogo.png') }}" alt="Keshav Ites - Software Development Company">
                     </a>
                     <p class="text-muted small mt-3 mb-4">Leading software development company delivering innovative IT
                         solutions and digital transformation services.</p>
@@ -206,7 +205,18 @@
     }
 
     .footer-logo {
+        display: inline-flex;
+        align-items: center;
         transition: transform 0.3s ease;
+    }
+
+    .footer-logo img {
+        width: 130px;
+        max-width: 100%;
+        height: auto;
+        background: #ffffff;
+        border-radius: 6px;
+        padding: 6px;
     }
 
     .footer-logo:hover {
