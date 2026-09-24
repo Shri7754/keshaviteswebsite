@@ -55,7 +55,7 @@
                             <div class="col-md-3 col-6">
                                 <div class="founder-stat">
                                     <span>Education</span>
-                                    <strong>BSC</strong>
+                                    <strong>B.Com</strong>
                                 </div>
                             </div>
                             <div class="col-md-3 col-6">
@@ -89,7 +89,8 @@
                                     <li>High School – ST Thomas School</li>
                                     <li>ICSE Board</li>
                                     <li>Intermediate – UP Board</li>
-                                    <li>Graduation – BSC</li>
+                                    <li>Graduation – Bachelor of Commerce (B.Com)</li>
+                                    <li>Post Graduation – Master of Commerce (M.Com)</li>
                                 </ul>
                             </div>
                         </div>
