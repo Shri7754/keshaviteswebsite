@@ -23,4 +23,8 @@ class PageController extends Controller
     public function founderProfile() {
         return view('pages.founder-profile');
     }
+
+    public function ashishProfile() {
+        return view('pages.ashish-profile');
+    }
 }

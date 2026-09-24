@@ -25,5 +25,6 @@ Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/services', [PageController::class, 'services'])->name('services');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::get('/founder-profile', [PageController::class, 'founderProfile'])->name('founder.profile');
+Route::get('/ashish-profile', [PageController::class, 'ashishProfile'])->name('ashish.profile');
 
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
