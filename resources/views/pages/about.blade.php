@@ -185,7 +185,10 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Ashish Chaturvedi</h4>
+                            <h4 class="text-primary">
+                                <a href="{{ route('ashish.profile') }}" class="team-name-link stretched-link">Ashish
+                                    Chaturvedi</a>
+                            </h4>
                             <p class="text-uppercase m-0">Marketing Manager</p>
                         </div>
                     </div>
