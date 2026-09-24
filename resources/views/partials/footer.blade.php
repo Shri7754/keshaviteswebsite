@@ -7,7 +7,7 @@
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <div class="footer-widget">
                     <a href="/" class="footer-logo d-inline-block mb-3">
-                        <img src="{{ asset('assets/img/keshaviteslogo.png') }}"
+                        <img src="{{ assetImage('keshaviteslogo.png') }}"
                             alt="Keshav Ites - Software Development Company">
                     </a>
                     <p class="text-muted small mt-3 mb-4">Leading software development company delivering innovative IT
