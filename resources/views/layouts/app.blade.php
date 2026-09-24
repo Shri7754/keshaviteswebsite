@@ -204,6 +204,8 @@
     <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
     <!-- Template Javascript -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
+    <!-- assets2/ client-side image fallback (see public/assets/js/image-fallback.js) -->
+    <script src="{{ asset('assets/js/image-fallback.js') }}"></script>
 </body>
 
 </html>
