@@ -14,7 +14,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5">
                     <div class="founder-photo-card">
-                        <img src="{{ asset('assets/img/1746718230.jpg') }}" alt="ER Shriram Mishra">
+                        <img src="{{ assetImage('1746718230.jpg') }}" alt="ER Shriram Mishra">
                     </div>
                 </div>
                 <div class="col-lg-7">

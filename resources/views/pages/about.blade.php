@@ -68,7 +68,7 @@
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
-                            src="{{ asset('assets/img/about.jpg') }}" style="object-fit: cover;">
+                            src="{{ assetImage('about.jpg') }}" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -123,7 +123,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item team-card-circle bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ asset('assets/img/1746718230.jpg') }}"
+                            <img class="img-fluid w-100" src="{{ assetImage('1746718230.jpg') }}"
                                 alt="ER Shriram Mishra">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.twitter.com"
@@ -148,7 +148,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item team-card-portrait bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ asset('assets/img/sanjayprofile.jpeg') }}"
+                            <img class="img-fluid w-100" src="{{ assetImage('sanjayprofile.jpeg') }}"
                                 alt="Sanjay Kumar Yadav">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.twitter.com"
@@ -170,7 +170,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="team-item team-card-placeholder bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ asset('assets/img/ashish.jpeg') }}"
+                            <img class="img-fluid w-100" src="{{ assetImage('ashish.jpeg') }}"
                                 alt="Ashish Chaturvedi">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.twitter.com"
@@ -199,15 +199,15 @@
         <div class="container py-5 mb-5">
             <div class="bg-white">
                 <div class="owl-carousel vendor-carousel">
-                    <img src="{{ asset('assets/img/vendor-1.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-2.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-3.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-4.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-5.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-6.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-7.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-8.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-9.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-1.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-2.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-3.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-4.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-5.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-6.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-7.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-8.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-9.jpg') }}" alt="">
                 </div>
             </div>
         </div>

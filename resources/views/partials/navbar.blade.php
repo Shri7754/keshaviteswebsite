@@ -2,7 +2,7 @@
  <div class="container-fluid position-relative p-0">
      <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
          <a href="{{ url('/') }}" class="navbar-brand logo-wrap">
-             <img src="{{ asset('assets/img/keshaviteslogo.png') }}" alt="Keshav Ites - Software Development Company">
+             <img src="{{ assetImage('keshaviteslogo.png') }}" alt="Keshav Ites - Software Development Company">
          </a>
 
          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -31,7 +31,7 @@
      <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
          <div class="carousel-inner">
              <div class="carousel-item active">
-                 <img class="w-100" src="{{ asset('assets/img/carousel-1.jpg') }}"
+                 <img class="w-100" src="{{ assetImage('carousel-1.jpg') }}"
                      alt="Professional IT Solutions and Software Development">
                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                      <div class="p-3" style="max-width: 900px;">
@@ -46,7 +46,7 @@
                  </div>
              </div>
              <div class="carousel-item">
-                 <img class="w-100" src="{{ asset('assets/img/carousel-2.jpg') }}"
+                 <img class="w-100" src="{{ assetImage('carousel-2.jpg') }}"
                      alt="Custom Software Development Services">
                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                      <div class="p-3" style="max-width: 900px;">
