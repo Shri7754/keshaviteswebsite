@@ -123,17 +123,19 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item team-card-circle bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ assetImage('1746718230.jpg') }}"
-                                alt="ER Shriram Mishra">
+                            <img class="img-fluid w-100" src="{{ assetImage('1746718230.jpg') }}" alt="ER Shriram Mishra">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.twitter.com"
                                     target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.facebook.com"
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded"
+                                    href="https://www.facebook.com/er.shri.ram.mishra/about/?fb_profile_edit_entry_point=%7B%22click_point%22%3A%22edit_profile_button%22%2C%22feature%22%3A%22profile_header%22%7D&id=100008685941775&sk=about"
                                     target="_blank"><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.instagram.com"
-                                    target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.linkedin.com"
-                                    target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded"
+                                    href="https://www.instagram.com/maalover1996/" target="_blank"><i
+                                        class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded"
+                                    href="https://www.linkedin.com/in/er-shri-ram-mishra-045b23226" target="_blank"><i
+                                        class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
@@ -170,8 +172,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="team-item team-card-placeholder bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ assetImage('ashish.jpeg') }}"
-                                alt="Ashish Chaturvedi">
+                            <img class="img-fluid w-100" src="{{ assetImage('ashish.jpeg') }}" alt="Ashish Chaturvedi">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.twitter.com"
                                     target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
