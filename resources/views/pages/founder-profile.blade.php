@@ -21,6 +21,22 @@
                     <div class="founder-profile-card">
                         <span class="founder-role">Senior Full Stack Developer</span>
                         <h2 class="mb-3">ER Shriram Mishra</h2>
+                        <div class="d-flex gap-2 mb-4" aria-label="Founder social profiles">
+                            <a class="btn btn-primary btn-lg-square rounded"
+                                href="https://www.facebook.com/er.shri.ram.mishra/about/?fb_profile_edit_entry_point=%7B%22click_point%22%3A%22edit_profile_button%22%2C%22feature%22%3A%22profile_header%22%7D&id=100008685941775&sk=about"
+                                target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <i class="fab fa-facebook-f fw-normal"></i>
+                            </a>
+                            <a class="btn btn-primary btn-lg-square rounded" href="https://www.instagram.com/maalover1996/"
+                                target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <i class="fab fa-instagram fw-normal"></i>
+                            </a>
+                            <a class="btn btn-primary btn-lg-square rounded"
+                                href="https://www.linkedin.com/in/er-shri-ram-mishra-045b23226" target="_blank"
+                                rel="noopener noreferrer" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in fw-normal"></i>
+                            </a>
+                        </div>
                         <p class="lead mb-4">Results-driven full stack developer with 8 years of experience in PHP,
                             Laravel, Node.js, and React.js, delivering secure and scalable platforms for government, HRMS,
                             healthcare, and SaaS businesses.</p>
