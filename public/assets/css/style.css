@@ -32,6 +32,16 @@
     border-radius: 6px;
 }
 
+.footer-logo img {
+    width: 150px;
+    height: auto;
+    max-height: 78px;
+    object-fit: contain;
+    background: #ffffff;
+    padding: 6px;
+    border-radius: 6px;
+}
+
 /* TABLET */
 @media (max-width: 992px) {
     .logo-wrap img {
@@ -445,6 +455,7 @@ h6,
 
 /*** Team ***/
 .team-item {
+    position: relative;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -454,11 +465,9 @@ h6,
     overflow: hidden;
 }
 
-.team-member-link {
-    display: block;
-    height: 100%;
-    text-decoration: none;
+.team-item .team-name-link {
     color: inherit;
+    text-decoration: none;
 }
 
 .team-item .text-center {
@@ -605,6 +614,104 @@ h6,
     font-size: 1.15rem;
 }
 
+.project-portfolio-card {
+    background: #ffffff;
+    border: 1px solid rgba(9, 30, 62, 0.08);
+    border-top: 4px solid #b8860b;
+    border-radius: 22px;
+    padding: 32px 30px;
+    box-shadow: 0 16px 40px rgba(9, 30, 62, 0.08);
+    transition: 0.4s;
+}
+
+.project-portfolio-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 22px 50px rgba(9, 30, 62, 0.14);
+}
+
+.portfolio-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(184, 134, 11, 0.12);
+    color: #b8860b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-bottom: 1.1rem;
+}
+
+.project-portfolio-card h4 {
+    color: #0b3a5a;
+    font-weight: 700;
+}
+
+.portfolio-count {
+    display: inline-block;
+    color: #8a6a00;
+    background: rgba(184, 134, 11, 0.12);
+    padding: 4px 14px;
+    border-radius: 999px;
+    font-weight: 800;
+    font-size: 0.95rem;
+    letter-spacing: 0.02rem;
+}
+
+.skills-panel-section {
+    background: #f5f9fc;
+}
+
+.skill-item {
+    margin-bottom: 1.8rem;
+}
+
+.skill-item:last-child {
+    margin-bottom: 0;
+}
+
+.skill-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+    font-weight: 700;
+    color: #0b3a5a;
+}
+
+.skill-percent {
+    color: #0f91db;
+}
+
+.skill-track {
+    width: 100%;
+    height: 10px;
+    border-radius: 999px;
+    background: rgba(15, 58, 90, 0.1);
+    overflow: hidden;
+}
+
+.skill-fill {
+    height: 100%;
+    width: 0;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #0f91db 0%, #16c2c2 100%);
+    animation: fillSkillBar 1.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes fillSkillBar {
+    from {
+        width: 0;
+    }
+    to {
+        width: var(--w);
+    }
+}
+
+.domain-marquee-section {
+    background: #ffffff;
+}
+
 .marquee-strip {
     overflow: hidden;
     background: #0f243d;
@@ -679,13 +786,16 @@ h6,
     align-items: center;
     justify-content: center;
     transition: 0.5s;
+    pointer-events: none;
 }
 
 .team-social a.btn {
     position: relative;
+    z-index: 2;
     margin: 0 3px;
     margin-top: 100px;
     opacity: 0;
+    pointer-events: auto;
 }
 
 .team-item:hover {

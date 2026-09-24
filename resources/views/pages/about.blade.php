@@ -121,31 +121,29 @@
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <a href="#founder-profile-details" class="team-member-link">
-                        <div class="team-item team-card-circle bg-light rounded overflow-hidden">
-                            <div class="team-img position-relative overflow-hidden">
-                                <img class="img-fluid w-100" src="{{ asset('assets/img/1746718230.jpg') }}"
-                                    alt="ER Shriram Mishra">
-                                <div class="team-social">
-                                    <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.twitter.com"
-                                        target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
-                                    <a class="btn btn-lg btn-primary btn-lg-square rounded"
-                                        href="https://www.facebook.com" target="_blank"><i
-                                            class="fab fa-facebook-f fw-normal"></i></a>
-                                    <a class="btn btn-lg btn-primary btn-lg-square rounded"
-                                        href="https://www.instagram.com" target="_blank"><i
-                                            class="fab fa-instagram fw-normal"></i></a>
-                                    <a class="btn btn-lg btn-primary btn-lg-square rounded"
-                                        href="https://www.linkedin.com" target="_blank"><i
-                                            class="fab fa-linkedin-in fw-normal"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center py-4">
-                                <h4 class="text-primary">ER Shriram Mishra</h4>
-                                <p class="text-uppercase m-0">Founder</p>
+                    <div class="team-item team-card-circle bg-light rounded overflow-hidden">
+                        <div class="team-img position-relative overflow-hidden">
+                            <img class="img-fluid w-100" src="{{ asset('assets/img/1746718230.jpg') }}"
+                                alt="ER Shriram Mishra">
+                            <div class="team-social">
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.twitter.com"
+                                    target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.facebook.com"
+                                    target="_blank"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.instagram.com"
+                                    target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.linkedin.com"
+                                    target="_blank"><i class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
-                    </a>
+                        <div class="text-center py-4">
+                            <h4 class="text-primary">
+                                <a href="{{ route('founder.profile') }}" class="team-name-link stretched-link">ER Shriram
+                                    Mishra</a>
+                            </h4>
+                            <p class="text-uppercase m-0">Founder</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item team-card-portrait bg-light rounded overflow-hidden">
@@ -172,8 +170,8 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="team-item team-card-placeholder bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ asset('assets/img/WIN_20260121_20_24_31_Pro.jpg') }}"
-                                alt="Work in progress">
+                            <img class="img-fluid w-100" src="{{ asset('assets/img/ashish.jpeg') }}"
+                                alt="Ashish Chaturvedi">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.twitter.com"
                                     target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
@@ -186,8 +184,8 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Work in progress</h4>
-                            <p class="text-uppercase m-0">Work in progress</p>
+                            <h4 class="text-primary">Ashish Chaturvedi</h4>
+                            <p class="text-uppercase m-0">Marketing Manager</p>
                         </div>
                     </div>
                 </div>
@@ -195,102 +193,6 @@
         </div>
     </div>
     <!-- Team End -->
-
-    <!-- Founder Spotlight -->
-    <div class="container-fluid py-5 founder-spotlight wow fadeInUp" data-wow-delay="0.1s" id="founder-profile-details">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 700px;">
-                <h5 class="fw-bold text-primary text-uppercase">Founder Profile</h5>
-                <h1 class="mb-0">ER Shriram Mishra</h1>
-            </div>
-
-            <div class="marquee-strip mb-5">
-                <div class="marquee-track">
-                    <span>PHP</span>
-                    <span>Laravel</span>
-                    <span>Node.js</span>
-                    <span>React.js</span>
-                    <span>REST APIs</span>
-                    <span>RBAC</span>
-                    <span>CI/CD</span>
-                    <span>HRMS</span>
-                    <span>Healthcare Systems</span>
-                    <span>Government Portals</span>
-                    <span>Full Stack Development</span>
-                    <span>PHP</span>
-                    <span>Laravel</span>
-                    <span>Node.js</span>
-                    <span>React.js</span>
-                    <span>REST APIs</span>
-                    <span>RBAC</span>
-                    <span>CI/CD</span>
-                    <span>HRMS</span>
-                    <span>Healthcare Systems</span>
-                    <span>Government Portals</span>
-                    <span>Full Stack Development</span>
-                </div>
-            </div>
-
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-5">
-                    <div class="founder-photo-card">
-                        <img src="{{ asset('assets/img/1746718230.jpg') }}" alt="ER Shriram Mishra">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="founder-profile-card">
-                        <span class="founder-role">Senior Full Stack Developer</span>
-                        <h2 class="mb-3">ER Shriram Mishra</h2>
-                        <p class="lead mb-4">Results-driven full stack developer with 5+ years of experience in PHP,
-                            Laravel, Node.js, and React.js, delivering secure and scalable platforms for government, HRMS,
-                            healthcare, and SaaS businesses.</p>
-
-                        <div class="founder-stats row g-3 mb-4">
-                            <div class="col-md-4">
-                                <div class="founder-stat">
-                                    <span>Experience</span>
-                                    <strong>5+ Years</strong>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="founder-stat">
-                                    <span>Education</span>
-                                    <strong>B.Tech</strong>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="founder-stat">
-                                    <span>Location</span>
-                                    <strong>Mumbai</strong>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row g-4">
-                            <div class="col-md-6">
-                                <h4 class="profile-subtitle">Professional Experience</h4>
-                                <ul class="feature-list">
-                                    <li>Senior Software Engineer at SilverTouch Technology</li>
-                                    <li>Government and judiciary portal development with Laravel</li>
-                                    <li>Bombay High Court Case Management System</li>
-                                    <li>RBAC, workflow automation, secure API implementation</li>
-                                    <li>CI/CD deployment and performance tuning</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6">
-                                <h4 class="profile-subtitle">Education</h4>
-                                <ul class="feature-list">
-                                    <li>B.Tech (Computer Science) – Lucknow AKTU University</li>
-                                    <li>Intermediate – ST Joseph School</li>
-                                    <li>High School – ST Thomas School</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Vendor Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">

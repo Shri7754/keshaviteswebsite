@@ -7,8 +7,8 @@
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <div class="footer-widget">
                     <a href="/" class="footer-logo d-inline-block mb-3">
-                        <i class="fa fa-code text-primary me-2"></i>
-                        <span class="h5 text-white m-0">Keshav Ites</span>
+                        <img src="{{ asset('assets/img/keshaviteslogo.png') }}"
+                            alt="Keshav Ites - Software Development Company">
                     </a>
                     <p class="text-muted small mt-3 mb-4">Leading software development company delivering innovative IT
                         solutions and digital transformation services.</p>
