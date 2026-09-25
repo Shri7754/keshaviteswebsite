@@ -27,4 +27,16 @@ class PageController extends Controller
     public function ashishProfile() {
         return view('pages.ashish-profile');
     }
+
+    public function sanjayProfile() {
+        return view('pages.sanjay-profile');
+    }
+
+    public function pulseClinicProject() {
+        return view('pages.pulse-clinic-project');
+    }
+
+    public function mobileApplications() {
+        return view('pages.mobile-applications');
+    }
 }

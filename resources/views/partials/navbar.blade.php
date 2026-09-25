@@ -16,8 +16,8 @@
                  <div class="nav-item dropdown">
                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Solutions</a>
                      <div class="dropdown-menu m-0">
-                         <a href="#custom-development" class="dropdown-item">Custom Development</a>
-                         <a href="#web-apps" class="dropdown-item">Web Applications</a>
+                         <a href="{{ route('pulse-clinic.project') }}" class="dropdown-item">Web Development</a>
+                         <a href="{{ route('mobile-applications') }}" class="dropdown-item">Mobile Applications</a>
                      </div>
                  </div>
                  <a href="/contact" class="nav-item nav-link">Contact</a>

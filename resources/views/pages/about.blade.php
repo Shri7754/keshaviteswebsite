@@ -164,7 +164,10 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Sanjay Kumar Yadav</h4>
+                            <h4 class="text-primary">
+                                <a href="{{ route('sanjay.profile') }}" class="team-name-link stretched-link">Sanjay
+                                    Kumar Yadav</a>
+                            </h4>
                             <p class="text-uppercase m-0">CEO</p>
                         </div>
                     </div>

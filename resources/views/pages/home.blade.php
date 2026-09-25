@@ -137,7 +137,8 @@
                                 <i class="fa fa-cubes text-white"></i>
                             </div>
                             <h4>Best In Industry</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor
+                            <p class="mb-0">Proven expertise in Laravel, React, and cloud-native development,
+                                trusted by government, healthcare, and enterprise clients.
                             </p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
@@ -146,7 +147,8 @@
                                 <i class="fa fa-award text-white"></i>
                             </div>
                             <h4>Award Winning</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor
+                            <p class="mb-0">Recognized for delivering secure, high-performance platforms including
+                                judiciary systems, HRMS, and healthcare portals.
                             </p>
                         </div>
                     </div>
@@ -165,7 +167,8 @@
                                 <i class="fa fa-users-cog text-white"></i>
                             </div>
                             <h4>Professional Staff</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor
+                            <p class="mb-0">A skilled team of full-stack developers, designers, and consultants
+                                dedicated to building solutions that fit your business.
                             </p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
@@ -174,7 +177,8 @@
                                 <i class="fa fa-phone-alt text-white"></i>
                             </div>
                             <h4>24/7 Support</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor
+                            <p class="mb-0">Round-the-clock assistance and maintenance, so your website or
+                                application stays online and issue-free.
                             </p>
                         </div>
                     </div>
@@ -466,7 +470,7 @@
                         <img class="img-fluid rounded" src="{{ assetImage('pulseclinic.jpg') }}"
                             style="width: 60px; height: 60px;">
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Ankita Yadav</h4>
+                            <h4 class="text-primary mb-1">Dr Neha Gupta</h4>
                             <small class="text-uppercase"> Pulse Clinic Manager</small>
                         </div>
                     </div>
@@ -565,7 +569,10 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Sanjay Kumar Yadav</h4>
+                            <h4 class="text-primary">
+                                <a href="{{ route('sanjay.profile') }}" class="team-name-link stretched-link">Sanjay
+                                    Kumar Yadav</a>
+                            </h4>
                             <p class="text-uppercase m-0">CEO</p>
                         </div>
                     </div>
