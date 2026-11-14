@@ -112,7 +112,7 @@
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s"
-                            src="{{ asset('assets/img/about.jpg') }}" style="object-fit: cover;">
+                            src="{{ assetImage('about.jpg') }}" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -137,7 +137,8 @@
                                 <i class="fa fa-cubes text-white"></i>
                             </div>
                             <h4>Best In Industry</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor
+                            <p class="mb-0">Proven expertise in Laravel, React, and cloud-native development,
+                                trusted by government, healthcare, and enterprise clients.
                             </p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
@@ -146,7 +147,8 @@
                                 <i class="fa fa-award text-white"></i>
                             </div>
                             <h4>Award Winning</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor
+                            <p class="mb-0">Recognized for delivering secure, high-performance platforms including
+                                judiciary systems, HRMS, and healthcare portals.
                             </p>
                         </div>
                     </div>
@@ -154,7 +156,7 @@
                 <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s"
-                            src="{{ asset('assets/img/feature.jpg') }}" style="object-fit: cover;">
+                            src="{{ assetImage('feature.jpg') }}" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -165,7 +167,8 @@
                                 <i class="fa fa-users-cog text-white"></i>
                             </div>
                             <h4>Professional Staff</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor
+                            <p class="mb-0">A skilled team of full-stack developers, designers, and consultants
+                                dedicated to building solutions that fit your business.
                             </p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
@@ -174,7 +177,8 @@
                                 <i class="fa fa-phone-alt text-white"></i>
                             </div>
                             <h4>24/7 Support</h4>
-                            <p class="mb-0">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor
+                            <p class="mb-0">Round-the-clock assistance and maintenance, so your website or
+                                application stays online and issue-free.
                             </p>
                         </div>
                     </div>
@@ -448,7 +452,7 @@
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="{{ asset('assets/img/wtsceo.jpeg') }}"
+                        <img class="img-fluid rounded" src="{{ assetImage('wtsceo.jpeg') }}"
                             style="width: 60px; height: 60px;">
                         <div class="ps-4">
                             <h4 class="text-primary mb-1">Dyanesh Sashte</h4>
@@ -463,10 +467,10 @@
                 </div>
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="{{ asset('assets/img/pulseclinic.jpg') }}"
+                        <img class="img-fluid rounded" src="{{ assetImage('pulseclinic.jpg') }}"
                             style="width: 60px; height: 60px;">
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Ankita Yadav</h4>
+                            <h4 class="text-primary mb-1">Dr Neha Gupta</h4>
                             <small class="text-uppercase"> Pulse Clinic Manager</small>
                         </div>
                     </div>
@@ -478,7 +482,7 @@
                 </div>
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="{{ asset('assets/img/e4ceo.jpeg') }}"
+                        <img class="img-fluid rounded" src="{{ assetImage('e4ceo.jpeg') }}"
                             style="width: 60px; height: 60px;">
                         <div class="ps-4">
                             <h4 class="text-primary mb-1">Nirmal Mishra</h4>
@@ -493,7 +497,7 @@
                 </div>
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="{{ asset('assets/img/aweGustceo.jpeg') }}"
+                        <img class="img-fluid rounded" src="{{ assetImage('aweGustceo.jpeg') }}"
                             style="width: 60px; height: 60px;">
                         <div class="ps-4">
                             <h4 class="text-primary mb-1">Aman Goyal</h4>
@@ -523,20 +527,27 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="team-item team-card-circle bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ asset('assets/img/1746718230.jpg') }}" alt="">
+                            <img class="img-fluid w-100" src="{{ assetImage('1746718230.jpg') }}"
+                                alt="ER Shriram Mishra">
                             <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
-                                        class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.twitter.com"
+                                    target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded"
+                                    href="https://www.facebook.com/er.shri.ram.mishra/about/?fb_profile_edit_entry_point=%7B%22click_point%22%3A%22edit_profile_button%22%2C%22feature%22%3A%22profile_header%22%7D&id=100008685941775&sk=about"
+                                    target="_blank"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded"
+                                    href="https://www.instagram.com/maalover1996/" target="_blank"><i
                                         class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
+                                <a class="btn btn-lg btn-primary btn-lg-square rounded"
+                                    href="https://www.linkedin.com/in/er-shri-ram-mishra-045b23226" target="_blank"><i
                                         class="fab fa-linkedin-in fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary"> ER Shriram Mishra</h4>
+                            <h4 class="text-primary">
+                                <a href="{{ route('founder.profile') }}" class="team-name-link stretched-link">ER Shriram
+                                    Mishra</a>
+                            </h4>
                             <p class="text-uppercase m-0">Founder</p>
                         </div>
                     </div>
@@ -544,7 +555,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="team-item team-card-portrait bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ asset('assets/img/sanjayprofile.jpeg') }}"
+                            <img class="img-fluid w-100" src="{{ assetImage('sanjayprofile.jpeg') }}"
                                 alt="Sanjay Kumar Yadav">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i
@@ -558,7 +569,10 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Sanjay Kumar Yadav</h4>
+                            <h4 class="text-primary">
+                                <a href="{{ route('sanjay.profile') }}" class="team-name-link stretched-link">Sanjay
+                                    Kumar Yadav</a>
+                            </h4>
                             <p class="text-uppercase m-0">CEO</p>
                         </div>
                     </div>
@@ -580,7 +594,10 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Ashish Chaturvedi</h4>
+                            <h4 class="text-primary">
+                                <a href="{{ route('ashish.profile') }}" class="team-name-link stretched-link">Ashish
+                                    Chaturvedi</a>
+                            </h4>
                             <p class="text-uppercase m-0">Marketing Manager</p>
                         </div>
                     </div>
@@ -602,7 +619,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets/img/blog-1.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ assetImage('blog-1.jpg') }}" alt="">
                             <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
                                 href="">UI and UX Design</a>
                         </div>
@@ -622,7 +639,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets/img/blog-2.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ assetImage('blog-2.jpg') }}" alt="">
                             <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
                                 href="">Web Development</a>
                         </div>
@@ -641,7 +658,7 @@
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                     <div class="blog-item bg-light rounded overflow-hidden">
                         <div class="blog-img position-relative overflow-hidden">
-                            <img class="img-fluid" src="{{ asset('assets/img/blog-3.jpg') }}" alt="">
+                            <img class="img-fluid" src="{{ assetImage('blog-3.jpg') }}" alt="">
                             <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4"
                                 href="">Mobile Development</a>
                         </div>
@@ -668,15 +685,15 @@
         <div class="container py-5 mb-5">
             <div class="bg-white">
                 <div class="owl-carousel vendor-carousel">
-                    <img src="{{ asset('assets/img/vendor-1.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-2.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-3.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-4.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-5.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-6.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-7.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-8.jpg') }}" alt="">
-                    <img src="{{ asset('assets/img/vendor-9.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-1.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-2.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-3.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-4.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-5.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-6.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-7.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-8.jpg') }}" alt="">
+                    <img src="{{ assetImage('vendor-9.jpg') }}" alt="">
                 </div>
             </div>
         </div>

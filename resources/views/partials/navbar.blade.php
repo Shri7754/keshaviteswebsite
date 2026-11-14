@@ -16,8 +16,8 @@
                  <div class="nav-item dropdown">
                      <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Solutions</a>
                      <div class="dropdown-menu m-0">
-                         <a href="#custom-development" class="dropdown-item">Custom Development</a>
-                         <a href="#web-apps" class="dropdown-item">Web Applications</a>
+                         <a href="{{ route('pulse-clinic.project') }}" class="dropdown-item">Web Development</a>
+                         <a href="{{ route('mobile-applications') }}" class="dropdown-item">Mobile Applications</a>
                      </div>
                  </div>
                  <a href="/quote" class="nav-item nav-link">Get Quote</a>
@@ -32,7 +32,7 @@
      <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
          <div class="carousel-inner">
              <div class="carousel-item active">
-                 <img class="w-100" src="{{ asset('assets/img/carousel-1.jpg') }}"
+                 <img class="w-100" src="{{ assetImage('carousel-1.jpg') }}"
                      alt="Professional IT Solutions and Software Development">
                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                      <div class="p-3" style="max-width: 900px;">
@@ -47,7 +47,7 @@
                  </div>
              </div>
              <div class="carousel-item">
-                 <img class="w-100" src="{{ asset('assets/img/carousel-2.jpg') }}"
+                 <img class="w-100" src="{{ assetImage('carousel-2.jpg') }}"
                      alt="Custom Software Development Services">
                  <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                      <div class="p-3" style="max-width: 900px;">

@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Serve real files under public/ directly (CSS, JS, images, fonts, etc.)
+    # instead of routing them through Laravel, which has no route for them
+    # and would otherwise return its own 404.
+    RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -f
+    RewriteRule ^(.*)$ public/$1 [L]
+
+    # Everything else goes through Laravel's front controller.
+    RewriteRule ^(.*)$ public/index.php [L]
+</IfModule>
