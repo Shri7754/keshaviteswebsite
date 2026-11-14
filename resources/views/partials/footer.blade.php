@@ -27,20 +27,28 @@
                     <!-- Social Media Links -->
                     <div class="social-links">
                         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
-                            class="btn btn-sm btn-outline-primary me-2" aria-label="Facebook">
+                            class="btn btn-sm btn-outline-primary me-2" aria-label="Facebook" title="Follow us on Facebook">
                             <i class="fab fa-facebook-f"></i>
                         </a>
                         <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"
-                            class="btn btn-sm btn-outline-primary me-2" aria-label="Twitter">
+                            class="btn btn-sm btn-outline-primary me-2" aria-label="Twitter" title="Follow us on Twitter">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"
-                            class="btn btn-sm btn-outline-primary me-2" aria-label="LinkedIn">
+                        <a href="https://www.instagram.com/keshavitessolutions" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-sm btn-outline-primary me-2" aria-label="Instagram" title="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/keshavites" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-sm btn-outline-primary me-2" aria-label="LinkedIn" title="Connect with us on LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
-                            class="btn btn-sm btn-outline-primary" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
+                        <a href="https://www.threads.com/@keshavitessolutions" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-sm btn-outline-primary me-2" aria-label="Threads" title="Follow us on Threads">
+                            <i class="fab fa-threads"></i>
+                        </a>
+                        <a href="https://youtube.com/@keshavitessolutions" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-sm btn-outline-primary" aria-label="YouTube" title="Subscribe to our YouTube Channel">
+                            <i class="fab fa-youtube"></i>
                         </a>
                     </div>
                 </div>

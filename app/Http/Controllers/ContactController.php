@@ -12,10 +12,18 @@ class ContactController extends Controller
     {
         $validated = $request->validate([
             'name' => 'required|string|max:255',
-            'email' => 'required|email|max:255',
+            'email' => 'required|email:rfc|max:255',
             'mobile' => 'required|string|regex:/^[0-9]{10}$/',
             'subject' => 'nullable|string|max:255',
             'message' => 'required|string|max:5000',
+        ], [
+            'name.required' => 'Please enter your full name.',
+            'email.required' => 'Please enter your email address.',
+            'email.email' => 'Please enter a valid email address (e.g., yourname@gmail.com).',
+            'mobile.required' => 'Please enter your mobile number.',
+            'mobile.regex' => 'Please enter exactly 10 digits for mobile number.',
+            'message.required' => 'Please enter your message.',
+            'message.max' => 'Your message cannot exceed 5000 characters.',
         ]);
 
         try {
@@ -35,4 +43,5 @@ class ContactController extends Controller
         }
     }
 }
+
 

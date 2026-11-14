@@ -20,6 +20,7 @@
                          <a href="#web-apps" class="dropdown-item">Web Applications</a>
                      </div>
                  </div>
+                 <a href="/quote" class="nav-item nav-link">Get Quote</a>
                  <a href="/contact" class="nav-item nav-link">Contact</a>
              </div>
              <button type="button" class="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal">

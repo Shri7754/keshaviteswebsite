@@ -408,9 +408,12 @@
                                         </label>
                                         <input type="email" name="email"
                                             class="form-control @error('email') is-invalid @endError @if(!$errors->has('email') && old('email')) is-valid @endif"
-                                            placeholder="Enter your email address"
+                                            placeholder="example@gmail.com"
                                             value="{{ old('email') }}"
                                             required>
+                                        <small style="color: #999; display: block; margin-top: 6px; font-size: 12px;">
+                                            📧 Enter your email like: yourname@gmail.com
+                                        </small>
                                         @error('email')
                                             <div class="error-message">{{ $message }}</div>
                                         @enderror

@@ -1,6 +1,9 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\PageController;
+use App\Http\Controllers\ProjectBookingController;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,16 +16,15 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-use App\Http\Controllers\PageController;
-use Illuminate\Support\Facades\Route;
-
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/services', [PageController::class, 'services'])->name('services');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+Route::get('/quote', [PageController::class, 'quote'])->name('quote');
 
+// Contact Form Routes
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+
+// Chatbot Project Booking Routes
+Route::get('/api/booking/services', [ProjectBookingController::class, 'getServices'])->name('booking.services');
+Route::post('/api/booking/store', [ProjectBookingController::class, 'store'])->name('booking.store');
