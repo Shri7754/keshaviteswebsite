@@ -84,7 +84,17 @@
                                     @enderror
                                 </div>
 
-                                <div class="col-12">
+                                <div class="col-sm-6">
+                                    <input type="tel" name="mobile"
+                                        class="form-control @error('mobile') is-invalid @enderror"
+                                        placeholder="Your Mobile Number (10 digits)" value="{{ old('mobile') }}" 
+                                        pattern="[0-9]{10}" maxlength="10">
+                                    @error('mobile')
+                                        <span class="invalid-feedback">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="col-sm-6">
                                     <input type="text" name="subject"
                                         class="form-control @error('subject') is-invalid @enderror"
                                         placeholder="Subject (Optional)" value="{{ old('subject') }}">

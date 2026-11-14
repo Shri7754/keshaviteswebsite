@@ -136,7 +136,7 @@
                                         href="https://www.instagram.com" target="_blank"><i
                                             class="fab fa-instagram fw-normal"></i></a>
                                     <a class="btn btn-lg btn-primary btn-lg-square rounded"
-                                        href="https://www.linkedin.com" target="_blank"><i
+                                        href="https://www.linkedin.com/in/er-shri-ram-mishra-045b23226" target="_blank"><i
                                             class="fab fa-linkedin-in fw-normal"></i></a>
                                 </div>
                             </div>
@@ -170,10 +170,10 @@
                     </div>
                 </div>
                 <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="team-item team-card-placeholder bg-light rounded overflow-hidden">
+                    <div class="team-item team-card-portrait bg-light rounded overflow-hidden">
                         <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="{{ asset('assets/img/WIN_20260121_20_24_31_Pro.jpg') }}"
-                                alt="Work in progress">
+                            <img class="img-fluid w-100" src="{{ asset('assets/img/aweGustceo.jpeg') }}"
+                                alt="Ashish Chaturvedi">
                             <div class="team-social">
                                 <a class="btn btn-lg btn-primary btn-lg-square rounded" href="https://www.twitter.com"
                                     target="_blank"><i class="fab fa-twitter fw-normal"></i></a>
@@ -186,8 +186,8 @@
                             </div>
                         </div>
                         <div class="text-center py-4">
-                            <h4 class="text-primary">Work in progress</h4>
-                            <p class="text-uppercase m-0">Work in progress</p>
+                            <h4 class="text-primary">Ashish Chaturvedi</h4>
+                            <p class="text-uppercase m-0">Marketing Manager</p>
                         </div>
                     </div>
                 </div>
